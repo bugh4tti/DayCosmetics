@@ -1,0 +1,56 @@
+menus:
+  main:
+    title: "&8» &bDayCosmetics"
+  killeffects:
+    title: "&8» &cKill Effects"
+  tags:
+    title: "&8» &eTags"
+
+killeffects:
+  none:
+    name: "&7Ninguno"
+    material: BARRIER
+    slot: 10
+  fuego:
+    name: "&6Explosión de Fuego"
+    material: BLAZE_POWDER
+    particle: FLAME
+    slot: 11
+  nieve:
+    name: "&bNevada"
+    material: SNOWBALL
+    particle: SNOWFLAKE
+    slot: 12
+  hechizo:
+    name: "&dHechizo Místico"
+    material: NETHER_STAR
+    particle: WITCH
+    slot: 13
+
+tags:
+  none:
+    name: "&7Ninguno"
+    tag: ""
+    material: BARRIER
+    slot: 10
+  pro:
+    name: "&c[PRO]"
+    tag: "&c[PRO] "
+    material: DIAMOND_SWORD
+    slot: 11
+  god:
+    name: "&6[GOD]"
+    tag: "&6[GOD] "
+    material: NETHER_STAR
+    slot: 12
+  ninja:
+    name: "&8[NINJA]"
+    tag: "&8[NINJA] "
+    material: COAL
+    slot: 13
+
+messages:
+  no-permission: "&cNo tenés permiso para usar este cosmético."
+  effect-selected: "&aSeleccionaste el kill effect: &f%effect%"
+  plugin-reloaded: "&aDayCosmetics recargado correctamente."
+  only-players: "&cSolo los jugadores pueden usar este comando."
